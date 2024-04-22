@@ -1,0 +1,138 @@
+/* Write some CSS below */
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    min-height: 100vh;
+  }
+ 
+  .grid {
+    display: flex;
+  }
+ 
+  .navbar {
+    padding: 20px;
+    background-color: #1e223c;
+    color: white;
+ 
+  }
+ 
+  .navbar img {
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 300px;
+    height: auto;
+  }
+ 
+  .navbar p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 2%;
+    padding: 0;
+  }
+  .participants h3 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+ 
+  .container {
+    margin: 20px auto;
+    width: 70%;
+ 
+  }
+ 
+  .qr-code {
+    background-color: #e0fedb;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+ 
+  .qr-code div {
+    text-align: center;
+  }
+  .qr-code h1 {
+    color: #4e4893;
+    margin-top: 80px;
+  }
+ 
+  .qr-code img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+  }
+ 
+  .participants {
+    width: 62%;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 20px;
+  }
+ 
+ 
+ 
+  .absent {
+    background: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: #4c488d 3px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .absent:hover {
+    transform: scale(1.01);
+  }
+ 
+  .absent p {
+    margin: 0;
+    font-weight: bold;
+  }
+ 
+  .absent button {
+    background: #4c488d;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  .absent button:hover {
+    background: #77c36b;
+  }
+ 
+  .navbar ul {
+    padding: 0;
+  }
+ 
+  .navbar text {
+    color: aliceblue;
+}
+ 
+.navbar a {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 0;
+    margin: 10px 0;
+    display: block;
+    text-decoration: none;
+    padding-left: 20px;
+    transition: 0.5s;
+   
+}
+ 
+.navbar a:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
